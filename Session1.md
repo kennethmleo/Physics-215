@@ -15,5 +15,20 @@ To install Julia, you just need to follow these steps:
 2. Follow the installation instructions (it was relatively simple).
 3. After installing, you should be able to see something like this
 ![Julia REPL!](julia.png)
+4. I also installed a Julia extension for VSCode since I prefer using it when I am not using a terminal.
+
+
+There are five (5) different types of REPL (read-eval-print loop) modes  in ```julia```. These are the (1) Julian mode, (2) Help mode, (3) Shell mode, (4) Pkg mode, and (5) Search mode.
+
+### Julian mode
+This mode is the most common and the default mode when you open Julia. In this mode, you can do basic mathematical operations and even has built-in functions (no more ```import numpy as np``` needed).
+    julia> 8+5-4
+    9
+
+    julia> sin(90)
+    0.8939966636005579
+
+    julia> exp(5) 
+    148.4131591025766
 
 [1]: <https://julialang.org/downloads/> "Download Julia"
