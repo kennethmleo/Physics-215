@@ -64,7 +64,8 @@ You can also create matrices directly in Julia!
     0.983532   0.835199   0.790692  0.726318       0.298218   0.152681  0.930122    0.0252579
     0.494333   0.988566   0.198158  0.665558       0.100271   0.180174  0.23059     0.53653
 
-Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable $\delta$
+Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable.
+
 ### Help mode
 Help mode can be triggered by typing ```?```. This will change ```julia>``` to ```help>```. Help mode basically gives the documentation of a certain function or anything that you write after the question mark. For example, if we want to find out more about the exponential function, we just type ```? exp```
 
@@ -127,6 +128,8 @@ To go to Pkg mode, just type ```]```. We can use this to install packages that w
 
 
 ### Search mode
+
+Search mode basically gives you the option to view your history (previously written lines) instead of using the arrow-up button and searching line-by-line. To use search mode, you have to press ```ctrl```+```r```.
 
 [1]: <https://julialang.org/downloads/> "Download Julia"
 [2]: <https://juliapackages.com/> "Julia Packages"
