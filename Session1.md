@@ -12,7 +12,8 @@
 
 To install Julia, you just need to follow these steps:
 1. Download Julia from their [website][1]. I downloaded v1.6.2 for macOS since I am using a macbook.
-[1]: <https://julialang.org/downloads/> "Download Julia"
 2. Follow the installation instructions (it was relatively simple).
 3. After installing, you should be able to see something like this
 ![Julia REPL!](julia.png)
+
+[1]: <https://julialang.org/downloads/> "Download Julia"
