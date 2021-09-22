@@ -21,7 +21,7 @@ To install Julia, you just need to follow these steps:
 There are five (5) different types of REPL (read-eval-print loop) modes  in ```julia```. These are the (1) Julian mode, (2) Help mode, (3) Shell mode, (4) Pkg mode, and (5) Search mode.
 
 ### Julian mode
-This mode is the most common and the default mode when you open Julia. In this mode, you can do basic mathematical operations and even has built-in functions (no more ```import numpy as np``` needed).
+This mode is the most common and the default mode when you open Julia. In this mode, you can do basic mathematical operations and even has built-in functions (no more ```import numpy as np``` needed). Tab completion is also supported in Julia so yeay!
 
     julia> 8+5-4
     9
@@ -112,6 +112,17 @@ Help mode can be triggered by typing ```?```. This will change ```julia>``` to `
     0.0      2.71828
 
 ### Shell mode
-Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line.
+Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line. I believe this only works for Linux and MacOS users. If you want to use shell mode in Windows, you first need to type ```powershell```.
+
+### Pkg mode
+To go to Pkg mode, just type ```]```. We can use this to install packages that will be useful for plotting, machine learning, etc. This [website][2] is a good website that basically lists most of the packages available in Julia and groups them in terms of their usage. These are just some of the packages that I installed:
+
+    (@v1.6) pkg> status
+        Status `~/.julia/environments/v1.6/Project.toml`
+    [336ed68f] CSV v0.9.3
+    [a93c6f00] DataFrames v1.2.2
+    [7073ff75] IJulia v1.23.2
+    [91a5bcdd] Plots v1.22.1
 
 [1]: <https://julialang.org/downloads/> "Download Julia"
+[2]: <https://juliapackages.com/> "Julia Packages"
