@@ -64,7 +64,7 @@ You can also create matrices directly in Julia!
     0.983532   0.835199   0.790692  0.726318       0.298218   0.152681  0.930122    0.0252579
     0.494333   0.988566   0.198158  0.665558       0.100271   0.180174  0.23059     0.53653
 
-Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable ```\u0394```
+Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable $\delta$
 ### Help mode
 Help mode can be triggered by typing ```?```. This will change ```julia>``` to ```help>```. Help mode basically gives the documentation of a certain function or anything that you write after the question mark. For example, if we want to find out more about the exponential function, we just type ```? exp```
 
