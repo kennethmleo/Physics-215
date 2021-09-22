@@ -129,7 +129,11 @@ To go to Pkg mode, just type ```]```. We can use this to install packages that w
 
 ### Search mode
 
-Search mode basically gives you the option to view your history (previously written lines) instead of using the arrow-up button and searching line-by-line. To use search mode, you have to press ```ctrl```+```r```.
+Search mode basically gives you the option to view your history (previously written lines) instead of using the arrow-up button and searching line-by-line. To use search mode, you have to press ```ctrl```+```r``` and it will give you this prompt.
+    
+    (reverse-i-search)`': 
+    
+So yeah, that's all I did for the installation and initial walkthrough of the Julia Language.
 
 [1]: <https://julialang.org/downloads/> "Download Julia"
 [2]: <https://juliapackages.com/> "Julia Packages"
