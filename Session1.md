@@ -64,4 +64,54 @@ You can also create matrices directly in Julia!
     0.983532   0.835199   0.790692  0.726318       0.298218   0.152681  0.930122    0.0252579
     0.494333   0.988566   0.198158  0.665558       0.100271   0.180174  0.23059     0.53653
 
+
+### Help mode
+Help mode can be triggered by typing ```?```. This will change ```julia>``` to ```help>```. Help mode basically gives the documentation of a certain function or anything that you write after the question mark. For example, if we want to find out more about the exponential function, we just type ```? exp```
+
+    help?> exp
+    search: exp exp2 Expr expm1 exp10 export exponent expanduser ExponentialBackOff ldexp frexp nextpow
+
+    exp(x)
+
+    Compute the natural base exponential of x, in other words e^x.
+
+    Examples
+    ≡≡≡≡≡≡≡≡≡≡
+
+    julia> exp(1.0)
+    2.718281828459045
+
+    ───────────────────────────────────────────────────────────────────────────────────────────────
+
+    exp(A::AbstractMatrix)
+
+    Compute the matrix exponential of A, defined by
+
+    e^A = \sum_{n=0}^{\infty} \frac{A^n}{n!}.
+
+    For symmetric or Hermitian A, an eigendecomposition (eigen) is used, otherwise the scaling and
+    squaring algorithm (see [^H05]) is chosen.
+
+    │ [^H05]
+    │
+    │  Nicholas J. Higham, "The squaring and scaling method for the matrix exponential
+    │  revisited", SIAM Journal on Matrix Analysis and Applications, 26(4), 2005, 1179-1193.
+    │  doi:10.1137/090768539 (https://doi.org/10.1137/090768539)
+
+    Examples
+    ≡≡≡≡≡≡≡≡≡≡
+
+    julia> A = Matrix(1.0I, 2, 2)
+    2×2 Matrix{Float64}:
+    1.0  0.0
+    0.0  1.0
+    
+    julia> exp(A)
+    2×2 Matrix{Float64}:
+    2.71828  0.0
+    0.0      2.71828
+
+### Shell mode
+Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line.
+
 [1]: <https://julialang.org/downloads/> "Download Julia"
