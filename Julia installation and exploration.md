@@ -112,9 +112,6 @@ Help mode can be triggered by typing ```?```. This will change ```julia>``` to `
     2.71828  0.0
     0.0      2.71828
 
-### Shell mode
-Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line. I believe this only works for Linux and MacOS users. If you want to use shell mode in Windows, you first need to type ```powershell```.
-
 ### Pkg mode
 To go to Pkg mode, just type ```]```. We can use this to install packages that will be useful for plotting, machine learning, etc. This [website][2] is a good website that basically lists most of the packages available in Julia and groups them in terms of their usage. These are just some of the packages that I installed:
 
@@ -125,6 +122,9 @@ To go to Pkg mode, just type ```]```. We can use this to install packages that w
     [0c46a032] DifferentialEquations v6.19.0
     [7073ff75] IJulia v1.23.2
     [91a5bcdd] Plots v1.22.1
+
+### Shell mode
+Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line. I believe this only works for Linux and MacOS users. If you want to use shell mode in Windows, you first need to type ```powershell```.
 
 
 ### Search mode
