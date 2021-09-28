@@ -64,7 +64,8 @@ You can also create matrices directly in Julia!
     0.983532   0.835199   0.790692  0.726318       0.298218   0.152681  0.930122    0.0252579
     0.494333   0.988566   0.198158  0.665558       0.100271   0.180174  0.23059     0.53653
 
-Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable $\delta$
+Another cool thing about Julia is you can actually write symbols as variables. For example when you type ```\delta``` and press tab, you will get the symbol for the delta variable.
+
 ### Help mode
 Help mode can be triggered by typing ```?```. This will change ```julia>``` to ```help>```. Help mode basically gives the documentation of a certain function or anything that you write after the question mark. For example, if we want to find out more about the exponential function, we just type ```? exp```
 
@@ -111,9 +112,6 @@ Help mode can be triggered by typing ```?```. This will change ```julia>``` to `
     2.71828  0.0
     0.0      2.71828
 
-### Shell mode
-Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line. I believe this only works for Linux and MacOS users. If you want to use shell mode in Windows, you first need to type ```powershell```.
-
 ### Pkg mode
 To go to Pkg mode, just type ```]```. We can use this to install packages that will be useful for plotting, machine learning, etc. This [website][2] is a good website that basically lists most of the packages available in Julia and groups them in terms of their usage. These are just some of the packages that I installed:
 
@@ -125,8 +123,17 @@ To go to Pkg mode, just type ```]```. We can use this to install packages that w
     [7073ff75] IJulia v1.23.2
     [91a5bcdd] Plots v1.22.1
 
+### Shell mode
+Shell mode can be activated using ```;```. In shell mode, you can use your system commands such as ```cd```, ```ls```, etc. To leave shell mode and go back to julian mode, you can just press backspace at the beginning of the line. I believe this only works for Linux and MacOS users. If you want to use shell mode in Windows, you first need to type ```powershell```.
+
 
 ### Search mode
+
+Search mode basically gives you the option to view your history (previously written lines) instead of using the arrow-up button and searching line-by-line. To use search mode, you have to press ```ctrl```+```r``` and it will give you this prompt.
+    
+    (reverse-i-search)`': 
+    
+So yeah, that's all I did for the installation and initial walkthrough of the Julia Language.
 
 [1]: <https://julialang.org/downloads/> "Download Julia"
 [2]: <https://juliapackages.com/> "Julia Packages"
