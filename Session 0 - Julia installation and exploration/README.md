@@ -1,4 +1,4 @@
-**Session 1: Julia installation and exploration**
+**Session 0: Julia installation and exploration**
 
 - Objective: Successfully Explore Julia
 - KR1: Julia can be run using the terminal, the Julia REPL appears
