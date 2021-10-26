@@ -7,4 +7,3 @@
 - KR4: Itemized differences between `@time`, `@btime`, `@benchmark` and other `@time`-like macros. Nice if the situations when they are best applied are mentioned.
 - KR5:  Identified demonstrated useful features within the `Profiler` module of Julia. Features must be explained why useful for your case.
 - KR6: A discussion of the performance of the implemented function above.
-- KR7: Disuss the computational complexity of the Madelbrot function you made based on KR5. What is the best `@time` output to use for this?
